@@ -1,0 +1,8 @@
+.border-circular {
+    border: 2px dashed rgb(41, 35, 112);
+    border-radius: 100%;
+}
+
+.border-dark {
+    border: 1px solid black;
+}
