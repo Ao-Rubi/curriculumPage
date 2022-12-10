@@ -2,7 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import pfp from "../img/SadCat.png";
+import pfp from "../img/pfp.jfif";
 import htmlImg from "../img/html.webp";
 import cssImg from "../img/css.webp";
 import jsImg from "../img/JavaScript.png";
@@ -17,7 +17,7 @@ import "../components/body.css"
 
 const Body = () => {
     return (
-        <div className='mt-4'>
+        <div className='py-4 '>
             <section className='container'>
                 <Container>
                     <Row>
@@ -31,8 +31,8 @@ const Body = () => {
                             <div className='text-center mt-3'>
                                 <h2>M.E.R.N Jr Web Developer Fullstack</h2>
                             </div>
-                            <div>
-                                <p className='ps-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto corporis earum blanditiis quaerat mollitia non voluptate eveniet, sed nihil sapiente!</p>
+                            <div className='p-4'>
+                                <p className='ps-3'>Apasionado de los videojuegos y la tecnología en general. Me encanta, en el caso de los juegos, encontrar errores y hecharme unas risas. Me gusta aprender y usualmente trabajo solo pero estoy un poco acostrumbrado a hacerlo tambien en equipo.</p>
                             </div>
                         </Col>
                     </Row>
@@ -42,23 +42,32 @@ const Body = () => {
             <section className='container mt-5 mb-4'>
                 <Container>
                     <Row>
-                        <Col className='border-dark'>
+                        <Col className='border-dark pt-3'>
                             <div className='text-center'>
                                 <h3>Informacion Academica</h3>
                             </div>
                             <hr />
                             <div>
-
+                                <h5>Secundario Completo</h5>
+                                <p>EGB3 y Polimodal. Modalidad Ciencias Naturales</p>
+                                <h5>Curso de programacion</h5>
+                                <p>Rolling Code School | Fulllstack course | 2022</p>
+                                <h5>Terciario</h5>
+                                <p>Profesorado de matemáticas 1° año completo | 2019</p>
                             </div>
                         </Col>
 
-                        <Col className='border-dark ms-5'>
+                        <Col className='border-dark ms-5 pt-3'>
                             <div className='text-center'>
                                 <h3>Experiencia Laboral</h3>
                             </div>
                             <hr />
                             <div>
-                                
+                                <h5>Ayudante de programador</h5>
+                                <p>-Reparado de aplicaciones con código obsoleto. | 6 meses</p>
+                                <h5>Beta tester de "The First Descendant"</h5>
+                                <p><b>Octubre 2022</b></p>
+                                <p>-Playtest and Feedback</p>
                             </div>
                         </Col>
                     </Row>
