@@ -42,7 +42,7 @@ const Body = () => {
             <section className='container mt-5 mb-4'>
                 <Container>
                     <Row>
-                        <Col className='border-dark pt-3'>
+                        <Col className='border-dark pt-3 bg-light'>
                             <div className='text-center'>
                                 <h3>Informacion Academica</h3>
                             </div>
@@ -57,7 +57,7 @@ const Body = () => {
                             </div>
                         </Col>
 
-                        <Col className='border-dark ms-5 pt-3'>
+                        <Col className='border-dark ms-5 pt-3 bg-light'>
                             <div className='text-center'>
                                 <h3>Experiencia Laboral</h3>
                             </div>
@@ -74,7 +74,7 @@ const Body = () => {
 
                     <Row>
                         <Col xs lg="3"></Col>
-                        <Col className='border-dark mt-5' xs lg="6">
+                        <Col className='border-dark mt-5 bg-light' xs lg="6">
                             <div className='text-center'>
                                 <h3>Idiomas</h3>
                             </div>
